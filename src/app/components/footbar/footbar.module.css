@@ -1,0 +1,9 @@
+/*  Css barre pied de page
+la forme , le contenu en general */
+.FootForme{
+    background-color: rgb(46, 44, 44);
+    gap: 2rem;
+    padding: 40px;
+    color: white;
+    border: 1px solid;
+}

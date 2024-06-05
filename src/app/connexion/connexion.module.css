@@ -1,0 +1,36 @@
+.container{
+    width: 100%;
+    max-width: 1200px;
+    height: 100vh;
+    text-align: center;
+    align-items: center;
+}
+/* aligne le texte au centre, avec une marge generale de 30px*/
+.connexion {
+    text-align: center;
+   margin: 30px;
+    
+}
+/* aligne mes tables aux centre de la page */
+.Tables{
+    display: flex;
+   flex-direction: column;
+    align-items: center;
+    
+}
+.Google{
+   margin-top: 10px;
+    border: 1px solid;
+    padding: 15px;
+   display: flex;
+   align-items: center;
+   
+}
+.Google img{
+    margin-right: 5px;
+}
+.phrase{
+    font-weight: 30px;
+    font-size: large;
+    margin-bottom: 30px;
+}
