@@ -1,8 +1,9 @@
 import React from 'react'
+import Styles from './inscription.module.css'
 
 const inscription = () => {
   return (
-    <div>inscription</div>
+    <div className={Styles.container}>inscription</div>
   )
 }
 

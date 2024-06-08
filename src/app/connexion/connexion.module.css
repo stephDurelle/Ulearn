@@ -1,6 +1,6 @@
 .container{
     width: 100%;
-    max-width: 1200px;
+    height: 100%;
     height: 100vh;
     text-align: center;
     align-items: center;
@@ -30,7 +30,55 @@
     margin-right: 5px;
 }
 .phrase{
-    font-weight: 30px;
+    font-weight: bold;
     font-size: large;
     margin-bottom: 30px;
+}
+.Google:hover{
+    background-color: rgb(207, 192, 192);
+
+}
+.InfoMail{
+    margin-top: 10px;
+    border: 1px solid ;
+    padding: 15px ;
+   display: flex;
+   align-items: center;
+}
+.InfoPass{
+    margin-top: 10px;
+    border: 1px solid;
+    padding: 15px 95px 15px 95px;
+   display: flex;
+   align-items: center;
+}
+.Email{
+    margin-top: 10px;
+    border: 1px solid ;
+    padding: 15px ;
+   display: flex;
+   align-items: center;
+}
+.Connect{
+    margin-top: 25px;
+    border: 1px solid;
+    padding: 15px 95px 15px 95px;
+   display: flex;
+   align-items: center;
+   background-color: rgb(46, 149, 222);
+   color: white;
+}
+.Connect:hover{
+background-color: blue;
+}
+.PasswordForget{
+    margin-top: 20px;
+    font-weight: lighter;
+    
+}
+
+.PasswordForget a{
+    text-decoration: underline;
+    color:blue ;
+    font-weight: bold;
 }
